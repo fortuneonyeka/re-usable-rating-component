@@ -1,11 +1,9 @@
 
-import './App.css';
+import StarRating from './components/StarRating';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <StarRating maxRating={5}  className="test" messages={["Terrible", "Bad","okay","Good", "Amazing"]} defaultRating={3}/>
   );
 }
 
